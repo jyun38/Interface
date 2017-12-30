@@ -1,0 +1,7 @@
+0. Get node to talk to SQL
+1. Return resutls to js console instead of sql console
+2. Encode interface state
+3. Send state to server
+4. Translate state --> SQL query
+5. Translate data --> state
+6. Update state

@@ -1,0 +1,98 @@
+h1{
+  font-size: 50px;
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  text-align: left;
+  background-image: url(headerBackground_new2.jpg);
+  background-repeat: no-repeat;
+  /*background: linear-gradient(#085E72, #24C8F0);*/
+  /*background: linear-gradient(#e2efff, #fbfdff);*/
+  padding: 50px;
+  margin: 0;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+body {
+  font-family: 'Alegreya Sans';
+  font-weight: bold;
+  /*font-size: 30px;*/
+}
+
+.domainsCon{
+  display: flex;
+  /*background: linear-gradient(#39CDF1, #FFFFFF);*/
+  /*background-image: url(headerBackground_new2.jpg);*/
+  background-color: #82D8E5;
+  flex-direction: column;
+  width: 13%;
+  height: 600px;
+  float: left;
+}
+
+.button {
+  font-family: 'Alegreya Sans';
+  font-weight: bold;
+  border: 2px black;
+  border-radius: 10px;
+  text-align: left;
+  color: #2D8896;
+  /*display: inline-block;*/
+  padding-top: 9px;
+  padding-bottom: 9px;
+  /*float: left;*/
+  overflow: auto;
+  width: 100%;
+  background-color: #82D8E5;
+}
+
+.categoriesCon{
+  display: flex;
+  /*background: linear-gradient(#39CDF1, #FFFFFF);*/
+  /*background-image: url(headerBackground_new2.jpg);*/
+  background-color: #ECF7F9;
+  flex-direction: column;
+  width: 13%;
+  /*height: 600px;*/
+  float: left;
+  height: 600px;
+}
+
+.catButton{
+  /*display: flex;
+  flex-direction: column;*/
+  font-family: 'Alegreya Sans';
+  font-weight: bold;
+  font-size: 17px;
+  border: 2px black;
+  border-radius: 10px;
+  width: 100%;
+  float: left;
+  background-color: #ECF7F9;
+  padding-left: 6px;
+  overflow: auto;
+  height: 30px;
+  text-align: left;
+}
+
+.questionsCon{
+  display: flex;
+  /*background: linear-gradient(#39CDF1, #FFFFFF);*/
+  /*background-image: url(headerBackground_new2.jpg);*/
+  background-color: #ECF7F9;
+  flex-direction: column;
+  width: 15%;
+  float: left;
+  height: 600px;
+}
+
+.questions{
+  font-family: 'Alegreya Sans';
+  font-weight: bold;
+  font-size: 17px;
+  width: 100%;
+  float: left;
+  padding-left: 6px;
+  overflow: auto;
+  text-align: left;
+}
